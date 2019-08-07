@@ -5,7 +5,7 @@
   "main": "server.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "set NODE_ENV=development && [c:Users/Maga/Documents/Cursos/FCamara/TreinamentoNodeJS]/node_modules/.bin/ts-node ./server/server.ts"
+    "start": "set NODE_ENV=development && C:/Users/Maga/Documents/Cursos/FCamara/TreinamentoNodeJS/node_modules/.bin/ts-node ./server/server.ts"
   },
   "repository": {
     "type": "git",
