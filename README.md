@@ -14,10 +14,12 @@
 
 NodeJS
 windows - https://nodejs.org/en/download/
+
 ubuntu- https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/
 
 TypeScript
 Windows - rode o comando no terminal do nodejs
+
 ubuntu - rode o comando no terminal comum
 Comando: npm install -g type
 
