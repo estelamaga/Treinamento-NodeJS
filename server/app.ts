@@ -1,11 +1,14 @@
 import * as express from "express";
 class App {
-  private app: express.Application;
+  public app: express.Application;
   constructor() {
     this.app = express();
     this.route();
   }
   route() {
-    this.app.route("/").get();
+    this.app
+      .route("/")
+      .get((req, res) => res.status(200).json({ results: "hello" }));
   }
 }
+export default new App();
