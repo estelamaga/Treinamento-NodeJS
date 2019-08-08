@@ -31,6 +31,22 @@ class App {
     this.app
       .route("/api/crushs")
       .post((req, res) => this.controller.create(req, res));
+
+    this.app
+      .route("/api/crushs")
+      .get((req, res) => this.controller.select(req, res));
+
+    this.app
+      .route("/api/crushs/:id")
+      .get((req, res) => this.controller.selectOne(req, res));
+
+    this.app
+      .route("/api/crushs/:id")
+      .delete((req, res) => this.controller.delete(req, res));
+
+    this.app
+      .route("/api/crushs/:id")
+      .put((req, res) => this.controller.update(req, res));
   }
 }
 export default new App();
